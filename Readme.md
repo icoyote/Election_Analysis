@@ -136,15 +136,20 @@ If more than one file would be provided it could be useful to have the audit off
 example
 
 ```
-# Modules
-import os
+# Add our dependencies.
 import csv
+import os
 
 # Prompt user for video lookup
-inputAuditFile = input("Type in the filename for the election audit( filename.csv ): ")
+inputAuditFile = input("Type in the filename for the election audit (no file extension needed): ")
 
 # Set path for file
-csvpath = os.path.join( "resources", inputAuditFile)
+file_to_load = os.path.join( "resources", f"{inputAuditFile}.csv")
+
+# Add a variable to load a file from a path.
+#file_to_load = os.path.join("resources", "election_results.csv")
+# Add a variable to save the file to a path.
+file_to_save = os.path.join("analysis", f"{inputAuditFile}.txt")
 
 
 ```
