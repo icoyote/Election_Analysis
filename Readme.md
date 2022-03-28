@@ -37,10 +37,8 @@ Election-Audit Results:
 
 - How many votes were cast in this congressional election?
 
-Election Results
--------------------------
-Total Votes: 369,711
--------------------------
+Election Results: Total Votes: 369,711
+
 
 The total number of votes casted in this election were equal to the total number of rows present in the elections_results.csv file minus the first row that in this case included a header. I validated the total votes by browsing the file in excel:
 
@@ -120,11 +118,10 @@ Raymon Anthony Doane: 3.1% (11,606)
 
 from the results sabed in the election results.txt file and the output printed to the terminal
 
--------------------------
 Winner: Diana DeGette
 Winning Vote Count: 272,892
 Winning Percentage: 73.8%
--------------------------
+
 
 Election-Audit Summary: 
 
