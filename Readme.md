@@ -153,3 +153,4 @@ file_to_save = os.path.join("analysis", f"{inputAuditFile}.txt")
 
 
 ```
+This update will allow to the user to process multiple csv files with th requirement that all of them follow the same format (1 header row and 3 columns) with the update even the output file is created based on the filename introduced. So the user will have an equal amount of result audit files as input files.
